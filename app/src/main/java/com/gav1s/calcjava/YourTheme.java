@@ -2,8 +2,9 @@ package com.gav1s.calcjava;
 
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.util.TypedValue;
 
-public class YourTheme implements Parcelable {
+public class YourTheme extends TypedValue implements Parcelable {
     private String name;
 
     public YourTheme() {
@@ -37,7 +38,7 @@ public class YourTheme implements Parcelable {
         public YourTheme[] newArray(int size) {
             return new YourTheme[size];
         }
-    }
+    };
 
     public String getName() {
         return name;
