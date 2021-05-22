@@ -24,12 +24,6 @@
            android:text="@string/lightTheme" />
 
         <RadioButton
-            android:id="@+id/radioAT"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/appTheme" />
-
-        <RadioButton
             android:id="@+id/radioNight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
