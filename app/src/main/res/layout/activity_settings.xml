@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+           android:id="@+id/radioCool"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/my_cool_style" />
+
+        <RadioButton
+           android:id="@+id/radioLight"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/lightTheme" />
+
+        <RadioButton
+            android:id="@+id/radioNight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/darkTheme" />
+    </RadioGroup>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_return" />
+
+</LinearLayout>

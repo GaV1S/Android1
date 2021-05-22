@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="themeName">appTheme</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
     <style name="MyCoolStyle" parent="Theme.MaterialComponents.Light">
+        <item name="themeName">myCool</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/design_default_color_primary</item>
         <item name="android:layout_marginStart">@dimen/margin</item>
@@ -12,6 +21,21 @@
         <item name="colorPrimary">#e91e63</item>
         <item name="colorPrimaryDark">#b0003a</item>
         <item name="colorAccent">#ff6090</item>
+    </style>
+
+    <style name="AppThemeLight" parent="Theme.MaterialComponents.Light">
+        <item name="themeName">light</item>
+        <item name="colorPrimary">#e91e63</item>
+        <item name="colorPrimaryDark">#b0003a</item>
+        <item name="colorAccent">#ff6090</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.MaterialComponents">
+        <item name="themeName">dark</item>
+        <item name="colorPrimary">#141414</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#C923FE</item>
+        <item name="android:statusBarColor">#9719BF</item>
     </style>
 
 </resources>

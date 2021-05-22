@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@style/MyCoolStyle"
     android:padding="@dimen/margin">
     <!-- поле результата -->
     <TextView
@@ -42,6 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/numberField">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -49,6 +49,7 @@
             android:text="@string/button_7" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -56,6 +57,7 @@
             android:text="@string/button_8" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button9"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -63,6 +65,7 @@
             android:text="@string/button_9" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_divide"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -79,6 +82,7 @@
         app:layout_constraintTop_toBottomOf="@+id/firstcom.google.android.material.button.MaterialButtonPanel">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -86,6 +90,7 @@
             android:text="@string/button_4" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -93,6 +98,7 @@
             android:text="@string/button_5" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -100,6 +106,7 @@
             android:text="@string/button_6" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_multiply"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -116,6 +123,7 @@
         app:layout_constraintTop_toBottomOf="@+id/secondcom.google.android.material.button.MaterialButtonPanel">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -123,6 +131,7 @@
             android:text="@string/button_1" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -130,6 +139,7 @@
             android:text="@string/button_2" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -137,6 +147,7 @@
             android:text="@string/button_3" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_minus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -153,6 +164,7 @@
         app:layout_constraintTop_toBottomOf="@+id/thirdcom.google.android.material.button.MaterialButtonPanel">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button0"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -160,6 +172,7 @@
             android:text="@string/button_0" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_point"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -167,6 +180,7 @@
             android:text="@string/button_dot" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_plus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -174,11 +188,29 @@
             android:text="@string/button_plus" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_result"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onOperationClick"
             android:text="@string/button_equal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fifthcom.google.android.material.button.MaterialButtonPanel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forthcom.google.android.material.button.MaterialButtonPanel">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChangeTheme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/changing_the_design" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,4 +20,10 @@
     <string name="material_light">Material light</string>
     <string name="material_light_action_bar_dark">Material light action bar dark</string>
     <string name="material_dark">Material dark</string>
+    <string name="changing_the_design">Смена темы</string>
+    <string name="_return">Применить</string>
+    <string name="nightTheme">Ночная тема</string>
+    <string name="lightTheme">Светлая тема</string>
+    <string name="darkTheme">Тёмная тема</string>
+    <string name="appTheme">Тема по умолчанию</string>
 </resources>
